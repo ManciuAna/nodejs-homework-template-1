@@ -1,11 +1,10 @@
 ## GoIT Node.js Course Template Homework
 
-Виконайте форк цього репозиторію для виконання домашніх завдань (2-6)
-Форк створить репозиторій на вашому http://github.com
+Realizează un fork al acestui repozitoriu pentru a îndeplini temele de acasă (2-6). Fork-ul va crea un repozitoriu pe contul tău de pe http://github.com
 
-Додайте ментора до колаборації
+Adaugă mentorul la colaborare.
 
-Для кожної домашньої роботи створюйте свою гілку.
+Pentru fiecare temă, creează un branch separat.
 
 - hw02
 - hw03
@@ -13,19 +12,18 @@
 - hw05
 - hw06
 
-Кожна нова гілка для др повинна робитися з master
+Fiecare branch nou pentru fiecare temă trebuie să fie derivat din branch-ul principal (master).
 
-Після того, як ви закінчили виконувати домашнє завдання у своїй гілці, необхідно зробити пулл-реквест (PR). Потім додати ментора для рев'ю коду. Тільки після того, як ментор заапрувить PR, ви можете виконати мердж гілки з домашнім завданням у майстер.
+După ce ai terminat lucrul la tema de acasă în branch-ul tău, trebuie să creezi un pull request (PR). Apoi, adaugă mentorul pentru revizuirea codului. Abia după ce mentorul aprobă PR-ul, poți face "merge" a branch-ului cu tema de acasă în branch-ul master.
 
-Уважно читайте коментарі ментора. Виправте зауваження та зробіть коміт у гілці з домашнім завданням. Зміни підтягнуться у PR автоматично після того, як ви відправите коміт з виправленнями на github
-Після виправлення знову додайте ментора на рев'ю коду.
+Citește cu atenție comentariile mentorului. Corectează observațiile și fă un "commit" în branch-ul cu tema de acasă. Modificările se vor reflecta automat în PR după ce trimiți "commit"-ul cu corecțiile pe GitHub. După corectare, adaugă din nou mentorul pentru revizuirea codului.
 
-- При здачі домашньої роботи є посилання на PR
-- JS-код чистий та зрозумілий, для форматування використовується Prettier
+- La predarea temei de acasă, este furnizat un link către PR.
+- Codul JavaScript este curat și ușor de înțeles, iar pentru formatare se folosește Prettier.
 
-### Команди:
+### Comenzi:
 
-- `npm start` &mdash; старт сервера в режимі production
-- `npm run start:dev` &mdash; старт сервера в режимі розробки (development)
-- `npm run lint` &mdash; запустити виконання перевірки коду з eslint, необхідно виконувати перед кожним PR та виправляти всі помилки лінтера
-- `npm lint:fix` &mdash; та ж перевірка лінтера, але з автоматичними виправленнями простих помилок
+- `npm start` &mdash; pornește serverul în modul production.
+- `npm run start:dev` &mdash; pornește serverul în modul dezvoltare (development).
+- `npm run lint` &mdash; rulează verificarea codului cu ESLint, este necesar să se ruleze înaintea fiecărui PR și să se corecteze toate erorile linterului.
+- `npm lint:fix` &mdash; aceeași verificare a linterului, dar cu corecții automate pentru erorile simple.
